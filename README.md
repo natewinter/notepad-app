@@ -17,6 +17,5 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
 
-## Deploying the App
+![screenshot](https://user-images.githubusercontent.com/25919007/95641106-402b2780-0a55-11eb-90fd-b4429827cf59.jpg)
 
-You will not be able to deploy your server side code on GitHub pages. This app should be deployed on Heroku. Carefully follow the [Heroku Guide](../04-Supplemental/HerokuGuide.md) for getting your app deployed on Heroku.
