@@ -4,18 +4,20 @@
   "description": "",
   "main": "server.js",
   "engines": {
-  "node": "12.16.3"
-    },
+    "node":"12.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "uniqid": "^5.2.0"
-  },
-  "scripts":{
-    "start": "node server.js"
+    "morgan": "^1.10.0"
   }
 }
+
+      
+  
+
