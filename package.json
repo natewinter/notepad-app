@@ -5,16 +5,28 @@
   "main": "server.js",
   "engines": {
     "node": "12.x"
+<<<<<<< HEAD
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+>>>>>>> a9c1e8f0715d97c9c8eeaa9934040479ec3a8173
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+<<<<<<< HEAD
     "morgan": "^1.10.0"
+=======
+    "morgan": "^1.10.0",
+    "uniqid": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+>>>>>>> a9c1e8f0715d97c9c8eeaa9934040479ec3a8173
   },
   "devDependencies": {},
   "repository": {
