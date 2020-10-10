@@ -1,23 +1,30 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "server.js",
   "engines": {
-    "node":"12.x"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "node": "12.x"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "morgan": "^1.10.0"
-  }
+    "morgan": "^1.10.0",
+    "uniqid": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natewinter/notepad-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/natewinter/notepad-app/issues"
+  },
+  "homepage": "https://github.com/natewinter/notepad-app#readme"
 }
-
-      
-  
-

@@ -2,7 +2,7 @@
 const path = require("path");
 const express = require("express");
 const fs = require("fs")
-var uniqid = require('uniqid');
+const uniqid = require("uniqid");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -48,15 +48,8 @@ app.get("/api/notes", function (req, res) {
 
 app.post("/api/notes", function (req, res) {
     var data = getDatabase() || []
-    var {
-        title,
-        text
-    } = req.body
-    var newNote = {
-        title,
-        text,
-        id: uniqid()
-    }
+    var {title,text} = req.body
+    var newNote = {title, text, id: uniqid()}
     data.push(newNote)
     postDatabase(data)
     res.json(data)
